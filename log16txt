@@ -1,0 +1,571 @@
+--Program ID 2--
+
+ExeStack:
+(a int;(b int;(c int;(fork(fork(print(a)));(fork(print(b));print(c))))))
+
+SymTable:
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+a int
+(b int;(c int;(fork(fork(print(a)));(fork(print(b));print(c)))))
+
+SymTable:
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+a int
+(b int;(c int;(fork(fork(print(a)));(fork(print(b));print(c)))))
+
+SymTable:
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(b int;(c int;(fork(fork(print(a)));(fork(print(b));print(c)))))
+
+SymTable:
+a->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(b int;(c int;(fork(fork(print(a)));(fork(print(b));print(c)))))
+
+SymTable:
+a->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+b int
+(c int;(fork(fork(print(a)));(fork(print(b));print(c))))
+
+SymTable:
+a->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+b int
+(c int;(fork(fork(print(a)));(fork(print(b));print(c))))
+
+SymTable:
+a->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(c int;(fork(fork(print(a)));(fork(print(b));print(c))))
+
+SymTable:
+a->0
+b->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(c int;(fork(fork(print(a)));(fork(print(b));print(c))))
+
+SymTable:
+a->0
+b->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+c int
+(fork(fork(print(a)));(fork(print(b));print(c)))
+
+SymTable:
+a->0
+b->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+c int
+(fork(fork(print(a)));(fork(print(b));print(c)))
+
+SymTable:
+a->0
+b->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(fork(fork(print(a)));(fork(print(b));print(c)))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(fork(fork(print(a)));(fork(print(b));print(c)))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+fork(fork(print(a)))
+(fork(print(b));print(c))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+fork(fork(print(a)))
+(fork(print(b));print(c))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(fork(print(b));print(c))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+fork(print(a))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+(fork(print(b));print(c))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+fork(print(a))
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+fork(print(b))
+print(c)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 4--
+
+ExeStack:
+print(a)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+fork(print(b))
+print(c)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 4--
+
+ExeStack:
+print(a)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+print(c)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 4--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 5--
+
+ExeStack:
+print(b)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+print(c)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 4--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 5--
+
+ExeStack:
+print(b)
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0]
+FileTable:
+
+Heap:
+
+--Program ID 2--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0, 0, 0]
+FileTable:
+
+Heap:
+
+--Program ID 3--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0, 0, 0]
+FileTable:
+
+Heap:
+
+--Program ID 4--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0, 0, 0]
+FileTable:
+
+Heap:
+
+--Program ID 5--
+
+ExeStack:
+
+SymTable:
+a->0
+b->0
+c->0
+
+Out:
+[0, 0, 0]
+FileTable:
+
+Heap:
+
