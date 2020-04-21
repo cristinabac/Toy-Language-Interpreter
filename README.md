@@ -3,7 +3,7 @@
 Our mini interpreter uses the following main structures:
 - Execution Stack (ExeStack): a stack of statements to execute the currrent program
 - Table of Symbols (SymTable): a table which keeps the variables values
-- Output (Out): that keeps all the mesages printed by the toy program
+- Output (Out): that keeps all the messages printed by the toy program
 - File table : FileTable that manages the files opened in our Toy Language - is 
 a dictionary mapping Toy Language file descriptor (that is an integer) to the following tuple
 (filename, file descriptor from Java language). The Toy Language file descriptor is managed by
